@@ -1,0 +1,73 @@
+{
+  "name": "ice-video-page",
+  "version": "0.0.1",
+  "description": "React component, a danmuku video player package.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --colors --progress --inline --no-info",
+    "lint": "concurrently \"eslint src server\" \"sass-lint -v -q\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IceEnd/ice-video-page"
+  },
+  "keywords": [
+    "danmaku video player",
+    "React",
+    "html5"
+  ],
+  "author": "CNO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IceEnd/ice-video-page/issues"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "isomorphic-fetch": "^2.2.1",
+    "ice-video": "^0.0.6",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.1",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "concurrently": "^3.1.0",
+    "cross-env": "^3.1.3",
+    "del": "2.2.2",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-webpack": "^1.5.0",
+    "node-sass": "^4.1.1",
+    "pre-commit": "1.2.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-lint": "^1.10.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  },
+  "npmName": "ice-video",
+  "pre-commit": [
+    "lint"
+  ]
+}
