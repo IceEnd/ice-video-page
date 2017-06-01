@@ -5,6 +5,7 @@ import Home from '../component/Home';
 import Start from '../component/Start';
 
 import '../assets/main.scss';
+import '../assets/video.scss';
 
 export default class Container extends Component {
   static displayName = 'Container';

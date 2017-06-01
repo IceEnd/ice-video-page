@@ -1,24 +1,23 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import headImg from '../assets/images/head.jpg';
 
-export default class Container extends Component {
-  static displayName = 'Nav';
+const Nav = () => (
+  <header className="header">
+    <div className="header-img">
+      <NavLink to="/">
+        <img src={headImg} alt="" />
+      </NavLink>
+    </div>
+    <nav>
+      <NavLink className="item" to="/" activeClassName="active" exact>Component</NavLink>
+      <NavLink className="item" to="/start" activeClassName="active">Parameter</NavLink>
+      <NavLink className="item" to="//github.com/IceEnd/ice-video">GitHub</NavLink>
+    </nav>
+  </header>
+);
 
-  componentWillMount() {}
+Nav.displayName = 'PageNav';
 
-  render() {
-    return (
-      <header className="header">
-        <div className="header-img">
-          <img src={headImg} alt="" />
-        </div>
-        <nav>
-          <Link to="/">首页</Link>
-          <Link to="/start">开始</Link>
-        </nav>
-      </header>
-    );
-  }
-}
+export default Nav;

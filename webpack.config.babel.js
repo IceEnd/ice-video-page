@@ -4,7 +4,7 @@ import webpack from 'webpack';
 export default {
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://localhost:3002',
     'webpack/hot/only-dev-server',
     path.join(__dirname, './src/index.js'),
   ],
@@ -28,7 +28,7 @@ export default {
     hot: true,
     contentBase: path.resolve(__dirname, 'src'),
     publicPath: '/static/',
-    port: 3000,
+    port: 3002,
     stats: {
       colors: true, // Nice colored output
       progress: true,

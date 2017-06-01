@@ -2861,13 +2861,13 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-ice-video@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/ice-video/-/ice-video-0.0.6.tgz#51f2dff7640304662cae4a40b4929c745309c42d"
+ice-video@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/ice-video/-/ice-video-0.0.8.tgz#d77144755bf066d25719ed35d255e74136e43f5a"
   dependencies:
     isomorphic-fetch "^2.2.1"
-    react "^15.4.2"
-    react-dom "^15.4.2"
+    react "^15.5.4"
+    react-dom "^15.5.4"
 
 iconv-lite@~0.4.13:
   version "0.4.17"
@@ -4591,7 +4591,7 @@ react-deep-force-update@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.0.1.tgz#4f7f6c12c3e7de42f345992a3c518236fa1ecad3"
 
-react-dom@^15.4.2:
+react-dom@^15.4.2, react-dom@^15.5.4:
   version "15.5.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.5.4.tgz#ba0c28786fd52ed7e4f2135fe0288d462aef93da"
   dependencies:
@@ -4656,7 +4656,7 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@^15.4.2:
+react@^15.4.2, react@^15.5.4:
   version "15.5.4"
   resolved "https://registry.yarnpkg.com/react/-/react-15.5.4.tgz#fa83eb01506ab237cdc1c8c3b1cea8de012bf047"
   dependencies:
