@@ -11,8 +11,8 @@ const Nav = () => (
       </NavLink>
     </div>
     <nav>
-      <NavLink className="item" to="/" activeClassName="active" exact>Component</NavLink>
-      <NavLink className="item" to="/start" activeClassName="active">Parameter</NavLink>
+      <NavLink className="item" to="/" activeClassName="active" exact>Demonstrate</NavLink>
+      <NavLink className="item" to="/start" activeClassName="active">Start</NavLink>
       <NavLink className="item" to="//github.com/IceEnd/ice-video">GitHub</NavLink>
     </nav>
   </header>

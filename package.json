@@ -5,6 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --colors --progress --inline --no-info",
+    "build": "cross-env NODE_ENV=production gulp",
     "lint": "concurrently \"eslint src server\" \"sass-lint -v -q\""
   },
   "repository": {
@@ -22,10 +23,11 @@
     "url": "https://github.com/IceEnd/ice-video-page/issues"
   },
   "dependencies": {
+    "http-server": "^0.10.0",
+    "ice-video": "^0.0.10",
+    "isomorphic-fetch": "^2.2.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "isomorphic-fetch": "^2.2.1",
-    "ice-video": "^0.0.8",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
@@ -52,6 +54,7 @@
     "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.3",
+    "gulp-html-replace": "^1.6.2",
     "gulp-rename": "1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-util": "^3.0.8",

@@ -6,6 +6,7 @@ import Start from '../component/Start';
 
 import '../assets/main.scss';
 import '../assets/video.scss';
+import '../assets/bootstrap.min.css';
 
 export default class Container extends Component {
   static displayName = 'Container';

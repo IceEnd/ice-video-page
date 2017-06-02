@@ -56,6 +56,10 @@ export default {
         test: /\.(png|jpg|jpeg|gif)$/,
         loader: 'url-loader?limit=10000&name=images/[name].[ext]',
       },
+      {
+        test: /\.(eot|woff2|woff|ttf|svg)$/,
+        loader: 'url-loader?name=fonts/[name].[ext]',
+      },
     ],
   },
   devtool: 'cheap-eval-source-map',
