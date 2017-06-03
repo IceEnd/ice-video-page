@@ -2916,9 +2916,9 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-ice-video@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/ice-video/-/ice-video-0.0.10.tgz#5943be137c350dceb584e6ba1726a9ec04d8e65e"
+ice-video@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/ice-video/-/ice-video-0.0.11.tgz#f9f04c33d5129b532f7528b5fda913648d1ed6a7"
   dependencies:
     isomorphic-fetch "^2.2.1"
     react "^15.5.4"

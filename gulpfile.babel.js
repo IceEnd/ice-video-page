@@ -52,6 +52,8 @@ gulp.task('static', () => {
     .pipe(gulp.dest('./dist/static/fonts'));
   gulp.src(['./src/assets/bootstrap.min.css'])
     .pipe(gulp.dest('./dist/static'));
+  gulp.src(['./src/video.mp4', './src/favicon.ico'])
+    .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('html', () =>

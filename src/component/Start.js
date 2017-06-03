@@ -18,7 +18,7 @@ const Start = () => (
             <span className="keyword">import</span>
             &nbsp;
             <span className="string">
-              &quot;node_modules/ice-video/dist/video.css&quot;
+              &quot;http://ice-video.coolecho.net/static/video.min.css&quot;
             </span>
             ;
           </code>
@@ -124,6 +124,105 @@ const Start = () => (
             &nbsp;Player;
           </code>
         </pre>
+        <h1 className="bottom-solid">Config</h1>
+        <h2>Options</h2>
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>field</th>
+              <th>type</th>
+              <th>default</th>
+              <th>note</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>autoPlay</td>
+              <td>boolean</td>
+              <td>false</td>
+              <td>whether to automatically play</td>
+            </tr>
+            <tr>
+              <td>preload</td>
+              <td>string</td>
+              <td>&apos;auto&apos;</td>
+              <td />
+            </tr>
+            <tr>
+              <td>poster</td>
+              <td>string</td>
+              <td>&apos;&apos;</td>
+              <td />
+            </tr>
+            <tr>
+              <td>loop</td>
+              <td>boolean</td>
+              <td>false</td>
+              <td>loop for video</td>
+            </tr>
+            <tr>
+              <td>volume</td>
+              <td>number</td>
+              <td>0.8</td>
+              <td>palyer&apos;s volume</td>
+            </tr>
+            <tr>
+              <td>controls</td>
+              <td>boolean</td>
+              <td>true</td>
+              <td>control player</td>
+            </tr>
+            <tr>
+              <td>scale</td>
+              <td>string</td>
+              <td>&apos;16:9&apos;</td>
+              <td />
+            </tr>
+          </tbody>
+        </table>
+        <h2>Danmuku</h2>
+        <p>The format of the data</p>
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>field</th>
+              <th>type</th>
+              <th>note</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>content</td>
+              <td>string</td>
+              <td>the content of a danmuku</td>
+            </tr>
+            <tr>
+              <td>date</td>
+              <td>Date</td>
+              <td>the time when send a danmuku</td>
+            </tr>
+            <tr>
+              <td>fontColor</td>
+              <td>string</td>
+              <td>color of danmuku</td>
+            </tr>
+            <tr>
+              <td>fontSize</td>
+              <td>string</td>
+              <td>fontSize of danmuku:<code>&apos;middle&apos;</code>,<code>&apos;small&apos;</code>,<code>&apos;large&apos;</code></td>
+            </tr>
+            <tr>
+              <td>model</td>
+              <td>string</td>
+              <td>model of danmuku:<code>&apos;roll&apos;</code>,<code>&apos;top&apos;</code>,<code>&apos;buttom&apos;</code></td>
+            </tr>
+            <tr>
+              <td>timepoint</td>
+              <td>number</td>
+              <td>video playback position</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
   </div>
