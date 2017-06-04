@@ -13,7 +13,7 @@ const Nav = () => (
     <nav>
       <NavLink className="item" to="/" activeClassName="active" exact>Demonstrate</NavLink>
       <NavLink className="item" to="/start" activeClassName="active">Start</NavLink>
-      <NavLink className="item" to="//github.com/IceEnd/ice-video">GitHub</NavLink>
+      <a className="item" href="//github.com/IceEnd/ice-video">GitHub</a>
     </nav>
   </header>
 );

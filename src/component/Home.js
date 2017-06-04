@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div className="row btn-container">
           <NavLink className="btn btn-default btn-right" to="/start">Start</NavLink>
-          <NavLink className="btn btn-info btn-left" to="//github.com/IceEnd/ice-video">GitHub</NavLink>
+          <a className="btn btn-info btn-left" href="https://github.com/IceEnd/ice-video">GitHub</a>
         </div>
         <div className="example row">
           <h1>Example</h1>
