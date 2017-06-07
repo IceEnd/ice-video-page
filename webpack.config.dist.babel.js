@@ -1,5 +1,6 @@
 import path from 'path';
 import webpack from 'webpack';
+import AssetsPluginInstance from 'assets-webpack-plugin';
 
 export default {
   entry: {
@@ -8,7 +9,7 @@ export default {
   },
 
   output: {
-    filename: '[name].js',
+    filename: '[name]-[chunkhash].js',
     path: path.join(__dirname, 'dist/static'),
   },
   module: {
@@ -29,7 +30,7 @@ export default {
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,
-        loader: 'url-loader?limit=10000&name=static/images/[name].[ext]',
+        loader: 'url-loader?name=static/images/[name].[ext]',
       },
       {
         test: /\.(eot|woff2|woff|ttf|svg)$/,
@@ -53,5 +54,6 @@ export default {
       name: 'vendor',
       path: path.join(__dirname, 'dist'),
     }),
+    new AssetsPluginInstance({ filename: './dist/assets-map.json' }),
   ],
 };

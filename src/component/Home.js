@@ -11,6 +11,8 @@ const Home = () => {
     volume: 0.5,
     getDanmukuUrl: 'https://api.coolecho.net/dmk/danmuku',
     sendDanmukuUrl: 'https://api.coolecho.net/dmk/senddanmu',
+    // getDanmukuUrl: 'http://127.0.0.1:3001/danmuku',
+    // sendDanmukuUrl: 'http://127.0.0.1:3001/senddanmu',
     controls: true,
     scale: '16:9',
     src: './video.mp4',

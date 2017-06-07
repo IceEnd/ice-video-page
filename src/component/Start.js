@@ -178,6 +178,18 @@ const Start = () => (
               <td>&apos;16:9&apos;</td>
               <td />
             </tr>
+            <tr>
+              <td>duration</td>
+              <td>number</td>
+              <td>6000</td>
+              <td>danmuku display duration，unit```ms```</td>
+            </tr>
+            <tr>
+              <td>opacity</td>
+              <td>number</td>
+              <td>1</td>
+              <td>the transparency of danmuku</td>
+            </tr>
           </tbody>
         </table>
         <h2>Danmuku</h2>
