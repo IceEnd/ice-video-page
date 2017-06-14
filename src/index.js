@@ -1,11 +1,14 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {AppContainer} from 'react-hot-loader';
 import Container from './container/Container';
 
 const render = () => {
   ReactDOM.render(
-    <Container />,
+    <AppContainer>
+      <Container />
+    </AppContainer>,
     document.querySelector('#root')
   );
 };
