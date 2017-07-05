@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 import {AppContainer} from 'react-hot-loader';
 import Container from './container/Container';
 
-const render = () => {
+const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
-      <Container />
+      <Component />
     </AppContainer>,
     document.querySelector('#root')
   );
