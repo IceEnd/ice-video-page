@@ -15,7 +15,7 @@ const Home = () => {
     // sendDanmukuUrl: 'http://127.0.0.1:3001/senddanmu',
     controls: true,
     scale: '16:9',
-    src: 'http://obukb5fdy.bkt.clouddn.com/icevideo/video.mp4video.mp4',
+    src: 'http://obukb5fdy.bkt.clouddn.com/icevideo/video/nayuta.mp4',
   };
   return (
     <div className="container">
